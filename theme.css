@@ -1,0 +1,80 @@
+/* General settings */
+body {
+    background-color: #E0E0E0; /* Silver background */
+    font-family: Arial, sans-serif; /* Simple font */
+    color: #5D4037; /* Brown text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header settings */
+header {
+    background-color: #6B8E23; /* Dark lime green */
+    text-align: center;
+    padding: 20px;
+    color: #FFFFFF; /* White text for the header */
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #E0E0E0; /* Silver background to match the body */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #5D4037; /* Brown links */
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #FFD700; /* Gold hover effect */
+}
+
+/* Section settings */
+section {
+    padding: 20px;
+    background-color: #E0E0E0; /* Silver background */
+}
+
+section h2 {
+    color: #6B8E23; /* Dark lime green for section titles */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Box model example using a class */
+.container {
+    padding: 10px;
+    border: 2px solid #5D4037; /* Brown border */
+    margin: 20px auto;
+    background-color: #E0E0E0; /* Silver background */
+    width: 80%;
+}
+
+/* Example of using an ID */
+#main-title {
+    color: #FFD700; /* Gold color for main title */
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #6B8E23;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Example of a class */
+.featured {
+    color: #5D4037; /* Brown color for featured text */
+    font-weight: bold;
+}
