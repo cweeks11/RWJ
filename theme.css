@@ -20,16 +20,21 @@ header h1 {
 }
 
 /* Navigation bar */
-nav {
-    background-color: #E0E0E0; /* Silver background to match the body */
-    padding: 10px;
-    text-align: center;
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin: 0 15px;
 }
 
 nav a {
-    color: #5D4037; /* Brown links */
     text-decoration: none;
-    margin: 0 15px;
+    color: #5D4037; /* Brown links */
 }
 
 nav a:hover {
