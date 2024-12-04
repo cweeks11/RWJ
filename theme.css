@@ -16,6 +16,14 @@ header {
     color: #FFFFFF; /* White text for the header */
 }
 
+/* Section Headers */
+h2 {
+    color: #6B8E23; /* Same green as the banner */
+    font-size: 2em; /* Larger size for emphasis */
+    text-align: center; /* Centered header text */
+    margin: 20px 0; /* Add spacing */
+}
+
 header div {
     display: flex;
     align-items: center;
